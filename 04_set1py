@@ -1,0 +1,27 @@
+#it will create empty dictinary not empty set
+a={}
+print(type(a))
+#create empty set
+b=set()
+print(type(b))
+#add elements in empty set b
+b.add(4)
+b.add(3)
+b.add(2)
+b.add(1)
+#b.add([4,5,6])#error  cannot add list since contents of list can be modified later
+#b.add({4:5})#error 
+b.add((4,5,6))# we can add tupple
+print(b)
+#length of set
+print(len(b))#prints length of this set
+
+b.remove(4)#remove 5 from set
+#b.remove(15) #error 
+print(b)
+b.pop()
+#remove random value from set
+print(b)
+b.clear()
+print(b)
+

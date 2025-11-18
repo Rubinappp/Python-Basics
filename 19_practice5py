@@ -1,0 +1,19 @@
+#write a program to calculate grade of a student from his ,arks from the following scheme:
+science=int(input("enter the marks of sub1"))
+math=int(input("enter the marks of sub2"))
+english=int(input("enter the marks of sub3"))
+sum=science+math+english
+if(sum>=90 and sum<=100):
+    print("excellent")
+elif(sum>=80 and sum< 90):#elif(sum>=80)
+    print("A")
+elif(sum>=70 and sum<80):#elif(sum>=70)
+    print("B")
+elif(sum>=60 and sum<70):#elif(sum>=60)
+    print("c")
+elif(sum>=50 and sum<60):#elif(sum>=50)
+    print("D")
+elif(sum<50):
+    print("D")
+else:
+    print("false")

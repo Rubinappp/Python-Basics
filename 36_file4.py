@@ -1,0 +1,6 @@
+f=open("text.txt",'w')
+f.write("its an amazing day ")
+f.close()
+f=open("text.txt",'a')
+f.write("yahoo")
+f.close()
