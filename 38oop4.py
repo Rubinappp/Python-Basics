@@ -8,7 +8,7 @@ class Employee:
 
 
 emp1=Employee('Rubina',90000)
-emp2=Employee('Prabesh',90000)
+emp2=Employee('Prativa',90000)
 #print(emp1.__dict__)
 # print(Employee.__dict__)
 emp1.raise_growth=1.05

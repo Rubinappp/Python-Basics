@@ -3,9 +3,9 @@
 class Employee:
     company='GOOGLE'    
 Rubina=Employee()
-Prabesh=Employee()
+Prativa=Employee()
 print(Rubina.company)
-print(Prabesh.company)
+print(Prativa.company)
 Employee.company='YOUTUBE'
 print(Rubina.company)
-print(Prabesh.company)
+print(Prativa.company)

@@ -11,7 +11,7 @@ class Employee:
 
 
 emp1=Employee('Rubina',90000)
-emp2=Employee('Prabesh',90000)
+emp2=Employee('Prativa',90000)
 emp1.raise_growth=1.05
 
 print(emp1.raise_growth)

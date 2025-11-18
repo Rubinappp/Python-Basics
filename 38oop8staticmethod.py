@@ -15,7 +15,7 @@ class Employee:
         return True
 
 emp_str1='john-Doe-7000'
-emp_str2='prabesh-vai-100000'
+emp_str2='prativa-gautam-100000'
 emp_str3='Miss-Rubina-70000'
 import datetime
 my_date=datetime.date(2023,6,11)

@@ -7,6 +7,6 @@ class Programmer:
     def getInfo(self):
         print(f"the name of the programmer is {self.name} and the product is {self.product}")
 Rubina=Programmer("Rubina","skype")
-Prabesh=Programmer("Prabesh","GitHub")
+Prativa=Programmer("Prativa","GitHub")
 Rubina.getInfo()
-Prabesh.getInfo()
+Prativa.getInfo()

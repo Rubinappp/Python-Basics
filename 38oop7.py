@@ -7,8 +7,8 @@
 #         self.email=first+last+'@gmail.com'
    
 # emp_str1='john-Doe-7000'
-# emp_str2='prabesh-vai-100000'
-# emp_str3='Miss-Rubina-70000'
+# emp_str2='prativa-gautam-100000'
+# emp_str3='Rubina-Poudel-70000'
 # first,last,pay=emp_str1.split('-')
 # new_emp1=Employee(first,last,pay)
 # print(new_emp1.first)
@@ -27,8 +27,8 @@ class Employee:
         return cls(first,last,pay) #this will create new employee object and return
    
 emp_str1='john-Doe-7000'
-emp_str2='prabesh-vai-100000'
-emp_str3='Miss-Rubina-70000'
+emp_str2='prativa-gautam-100000'
+emp_str3='Rubina-Poudel-70000'
 
 new_emp1=Employee.from_string(emp_str1)
 

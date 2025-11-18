@@ -18,7 +18,7 @@ class Employee:
       cls.raise_growth=amount
 
 emp1=Employee('Rubina',90000)
-emp2=Employee('Prabesh',90000)
+emp2=Employee('Prativa',90000)
 
 Employee.set_amount(1.05)#emp1.set_amount(1.05) this will also change class variable
 

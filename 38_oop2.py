@@ -6,6 +6,6 @@ class Employee:
       print(f"{self.name}/{self.salary}")
       
 emp1=Employee("rubina",90000)
-emp2=Employee("prabesh",100000)
+emp2=Employee("prativa",100000)
 emp1.disp()
 emp2.disp()
